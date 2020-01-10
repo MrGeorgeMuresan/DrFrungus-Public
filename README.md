@@ -7,4 +7,4 @@
     <li><h5>CSS</h5></li>
     <li><h5>Python - Flask</h5></li>
  </ul>
- <h3>
+ <h3>And hosted with Heroku on: https://dr-frungus-show.herokuapp.com/home</h3>
