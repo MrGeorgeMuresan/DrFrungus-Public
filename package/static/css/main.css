@@ -1,0 +1,514 @@
+html {
+  min-height: 100%; }
+
+  body {
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 800; }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box; }
+
+      .container {
+        display: block;
+        margin: auto;
+        text-align: center; }
+
+        header {
+          background: white; }
+
+          header::after {
+            content: '';
+            display: table;
+            clear: both; }
+
+            .logo {
+              float: left;
+              padding: 10px 0;
+              margin-left: 40px; }
+
+              .btn {
+                background-color: white;
+                border: none;
+                display: inline-block;
+                margin-top: 40px;
+                margin-right: 5px;
+                height: 80px;
+                position: relative;
+                font-family: 'Allerta Stencil', Arial;
+                color: #74deff;
+                padding: 16px 32px;
+                text-align: center;
+                transition: 3.5s;
+                font-size: 40px; }
+                .btn a {
+                  text-decoration: none;
+                  color: inherit; }
+
+.btn:hover {
+  background-color: #be00ff;
+  color: white; }
+
+  .btng:hover {
+    background-color: #1fc600;
+    color: white; }
+
+    .btnp:hover {
+      background-color: #ff2d00;
+      color: white; }
+
+      .btnv:hover {
+        background-color: #181848;
+        color: white; }
+
+        @keyframes opac-anim {
+          0% {
+            opacity: 0;   }
+            50% {
+              opacity: 0.5;   }
+              100% {
+                opacity: 1;   }
+}
+
+.home {
+  position: absolute;
+  width: 100%; }
+
+  .home-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .home-content img {
+      height: 70%;
+      margin-top: 1%;
+      border: 20px solid #4d3319;
+      animation-delay: 6s;
+      animation: opac-anim 10s; }
+      .home-content h1 {
+        font-size: 50px;
+        margin: 30px 0;
+        color: white;
+        animation: opac-anim 6s; }
+        .home-content p {
+          color: white;
+          font-size: 20px;
+          animation: opac-anim 6s; }
+
+.img-dark {
+  margin-top: 1%;
+  margin-left: 3%;
+  width: 30%;
+  height: 30%;
+  animation: opac-anim 10s; }
+
+  .home {
+    background: #181848; }
+
+    .form {
+      background: #181848;
+      height: 100vh; }
+      .form p {
+        color: #fff;
+        font-size: 3vw;
+        margin-left: 8%; }
+
+.form-content {
+  text-align: center;
+  margin-top: 10%; }
+  .form-content label {
+    font-size: 4vw;
+    color: #fff; }
+    .form-content input[type=text] {
+      width: 50%;
+      height: 6vh;
+      margin-left: 1%;
+      margin-top: 1%; }
+      .form-content .button {
+        color: #000;
+        width: 10%;
+        border: none;
+        font-size: 1.5vw;
+        display: block;
+        text-align: center;
+        margin-left: 70%; }
+
+.about {
+  height: 150vh;
+  background: #181848; }
+  .about h1 {
+    color: #fff;
+    font-family: 'Aclonica';
+    font-size: 2vw;
+    text-align: center; }
+
+.about-content h2 {
+  font-family: 'Aclonica', Arial;
+  color: #fff;
+  font-size: 3vw;
+  text-align: center;
+  padding-top: 4%; }
+  .about-content h3 {
+    font-family: 'Aclonica', Arial;
+    color: #fff;
+    font-size: 2vw;
+    text-align: center; }
+
+.research {
+  height: 150vh;
+  background: #181848; }
+
+  .image-wrapper {
+    text-align: center;
+    margin-left: 3%; }
+
+    .image-edit {
+      width: 70vw;
+      height: 55vh; }
+
+      .welcome-wrapper {
+        text-align: center; }
+
+        .welcome-txt-h1 {
+          color: #fff;
+          font-family: 'Aclonica';
+          font-size: 7vw; }
+
+          .welcome-txt-h2 {
+            color: #fff;
+            font-family: 'Aclonica';
+            font-size: 4vw; }
+
+            .research-button-wrapper {
+              text-align: center; }
+
+              .research-button-txt {
+                border-radius: 25px;
+                border-color: #1fc600;
+                width: 14vw;
+                height: 9vh;
+                background-color: #1fc600;
+                color: #fff;
+                font-size: 1.7vw; }
+
+                #display-section {
+                  display: block; }
+
+                  #research-section {
+                    display: none; }
+
+                    .research-box {
+                      display: flex;
+                      height: 150vh;
+                      background-color: #181848; }
+
+                      .flex-container {
+                        display: flex;
+                        flex-direction: row;
+                        align-content: space-evenly; }
+
+                        .card-teemo {
+                          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                          margin-top: 0;
+                          text-align: center;
+                          font-family: 'Aclonica';
+                          background-color: #74deff;
+                          width: 50vw;
+                          height: 75%; }
+
+                          .status {
+                            font-size: 22px;
+                            color: #fff; }
+
+                            .card-teemo button {
+                              border: none;
+                              outline: 0;
+                              padding: 12px;
+                              color: #fff;
+                              background-color: #1fc600;
+                              text-align: center;
+                              cursor: pointer;
+                              width: 100%;
+                              font-size: 18px; }
+
+                              .card-teemo h1 {
+                                color: #fff;
+                                font-family: 'Aclonica'; }
+
+                                .card-teemo button:hover {
+                                  opacity: 0.7; }
+
+                                  .card-lee {
+                                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                                    margin-top: 0;
+                                    text-align: center;
+                                    font-family: 'Aclonica';
+                                    background-color: #ff2d00;
+                                    width: 50vw;
+                                    height: 75%; }
+
+                                    .card-lee button {
+                                      border: none;
+                                      outline: 0;
+                                      padding: 12px;
+                                      color: #fff;
+                                      background-color: #1fc600;
+                                      text-align: center;
+                                      cursor: pointer;
+                                      width: 100%;
+                                      font-size: 18px; }
+
+                                      .card-lee button:hover {
+                                        opacity: 0.7; }
+
+                                        .card-lee h1 {
+                                          color: #fff;
+                                          font-family: 'Aclonica'; }
+
+                                          .card-lee img {
+                                            width: 20%; }
+
+                                            @media (max-width: 600px) {
+                                              .logo {
+                                                width: 100%;
+                                                margin: auto;   }
+                                                .creators {
+                                                  font-size: 14vw;   }
+                                                  .btn {
+                                                    font-size: 2em;   }
+                                                    .home-content {
+                                                      flex-direction: column;
+                                                      justify-content: center;   }
+                                                      .home-content img {
+                                                        width: 100%;
+                                                        height: auto;   }
+                                                        .home-content h1 {
+                                                          font-size: 13vw;   }
+                                              .btn {
+                                                font-size: 12vw;
+                                                display: block;
+                                                margin: auto;
+                                                width: auto;
+                                                height: auto;
+                                                text-align: center;   }
+                                                .form p {
+                                                  font-size: 4.2vw;
+                                                  margin: 0;
+                                                  margin-left: 3%;   }
+                                              .form-content {
+                                                text-align: left;
+                                                margin-top: 30%;   }
+                                                .form-content label {
+                                                  margin-left: 5%;
+                                                  font-size: 10vw;   }
+                                                  .form-content input[type=text] {
+                                                    display: block;
+                                                    width: 100%;
+                                                    margin: 0;   }
+                                                    .form-content .button {
+                                                      color: #000;
+                                                      font-size: 5vw;
+                                                      display: block;
+                                                      width: auto;
+                                                      height: auto;
+                                                      margin-top: 3%;
+                                                      width: 20%;   }
+                                              .about {
+                                                height: 110vh;   }
+                                                .about-content h2 {
+                                                  font-size: 7vw;
+                                                  padding-top: 4%;   }
+                                                  .about-content h3 {
+                                                    font-size: 5vw;   }
+                                                    .about-content h1 {
+                                                      font-size: 5vw;   }
+                                              .image-edit {
+                                                width: 100%;   }
+                                                .welcome-txt-h1 {
+                                                  font-size: 10vw;   }
+                                                  .welcome-txt-h2 {
+                                                    font-size: 7vw;   }
+                                                    .research-button-txt {
+                                                      font-size: 4vw;
+                                                      width: 60%;   }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .home-content {
+    justify-content: center;
+    flex-direction: column;   }
+    .home-content img {
+      width: 70%;   }
+      .home-content h1 {
+        font-size: 12vw;   }
+        .home-content p {
+          font-size: 8vw;
+          text-align: center;   }
+  .logo {
+    width: 80%;
+    height: 60%;
+    margin-left: 11%;   }
+    .btn {
+      font-size: 13vw;   }
+      .form p {
+        font-size: 4.5vw;   }
+  .form-content {
+    text-align: left;   }
+    .form-content label {
+      display: block;
+      font-size: 7vw;
+      margin-left: 10%;   }
+      .form-content input[type=text] {
+        font-size: 4vw;
+        width: 100%;
+        margin-left: 0;   }
+        .form-content .button {
+          font-size: 3vw;
+          width: 15%;
+          height: 14%;
+          margin-top: 3%;   }
+  .about-content h2 {
+    font-size: 7vw;
+    padding-top: 4%;   }
+    .about-content h3 {
+      font-size: 4vw;   }
+      .about-content h1 {
+        font-size: 4vw;   }
+  .image-edit {
+    width: 100%;   }
+    .welcome-txt-h1 {
+      font-size: 10vw;   }
+      .welcome-txt-h2 {
+        font-size: 7vw;   }
+        .research-button-txt {
+          font-size: 4vw;
+          width: 60%;   }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .home-content {
+    justify-content: center;
+    flex-direction: column;   }
+    .home-content img {
+      width: 70%;   }
+      .home-content h1 {
+        font-size: 12vw;   }
+        .home-content p {
+          font-size: 8vw;
+          text-align: center;   }
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;   }
+    .logo {
+      width: 80%;
+      height: 60%;
+      margin-left: 11%;   }
+      .btn {
+        font-size: 12vw;   }
+        .form p {
+          font-size: 4.5vw;   }
+  .form-content {
+    text-align: left;   }
+    .form-content label {
+      display: block;
+      font-size: 7vw;
+      margin-left: 10%;   }
+      .form-content input[type=text] {
+        font-size: 4vw;
+        width: 100%;
+        margin-left: 0;   }
+        .form-content .button {
+          font-size: 3vw;
+          width: 15%;
+          height: 15%;
+          margin-top: 3%;   }
+  .about {
+    height: 120vh;   }
+    .about-content h2 {
+      font-size: 7vw;
+      padding-top: 4%;   }
+      .about-content h3 {
+        font-size: 4vw;   }
+        .about-content h1 {
+          font-size: 4vw;   }
+  .image-edit {
+    width: 100%;   }
+    .welcome-txt-h1 {
+      font-size: 10vw;   }
+      .welcome-txt-h2 {
+        font-size: 7vw;   }
+        .research-button-txt {
+          font-size: 4vw;
+          width: 60%;   }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: space-evenly;   }
+    .btn {
+      font-size: 5vw;   }
+      .form p {
+        font-size: 3.7vw;   }
+  .form-content label {
+    font-size: 8vw;   }
+    .form-content input {
+      height: 80%;   }
+      .form-content .button {
+        font-size: 4vw;
+        height: 40%;   }
+  .about {
+    height: 120vh;   }
+    .about-content h2 {
+      font-size: 7vw;
+      padding-top: 4%;   }
+      .about-content h3 {
+        font-size: 4vw;   }
+        .about-content h1 {
+          font-size: 4vw;   }
+  .image-edit {
+    width: 100%;   }
+    .welcome-txt-h1 {
+      font-size: 10vw;   }
+      .welcome-txt-h2 {
+        font-size: 7vw;   }
+        .research-button-txt {
+          font-size: 4vw;
+          width: 60%;   }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;   }
+    .btn {
+      font-size: 4.7vw;   }
+      .form p {
+        margin-left: 7%;
+        font-size: 4vw;   }
+  .form-content label {
+    font-size: 7vw;   }
+    .form-content .button {
+      font-size: 3vw;   }
+  .about {
+    height: 150vh;   }
+    .about-content h2 {
+      font-size: 6vw;
+      padding-top: 4%;   }
+      .about-content h3 {
+        font-size: 4vw;   }
+        .about-content h1 {
+          font-size: 4vw;   }
+  .image-edit {
+    width: 100%;   }
+    .welcome-txt-h1 {
+      font-size: 10vw;   }
+      .welcome-txt-h2 {
+        font-size: 7vw;   }
+        .research-button-txt {
+          font-size: 4vw;
+          width: 60%;   }
+}

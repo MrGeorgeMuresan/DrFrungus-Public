@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+  <main>
+    <section class="home">
+      <div class="home-content">
+        <div class="home-presentation">
+          <h1>Dr. Frungus</h1>
+          <p>Main Host</p>
+        </div>
+        <img src="{{url_for('static', filename='site_photos/drfrungus.png')}}" alt="Dr Frungus"/>
+      </div>
+      <div class="home-content">
+        <div class="home-presentation">
+          <h1>Dark Mane</h1>
+          <p>Producer</p>
+        </div>
+        <img src="{{url_for('static', filename='site_photos/darkmanetrans.png')}}" class="img-dark " alt="Dr Frungus"/>
+
+      </div>
+    </section>
+  </main>
+{% endblock content%}

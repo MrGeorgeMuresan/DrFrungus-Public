@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    <main class="form">
+      <p>In order to get your VERY OWN P H D you must fill this form.</p>
+      <section>
+        <div class="form-content">
+          <form class="" action="/photo" method="post">
+            {{ form.name.label(class="name-label") }} {{ form.name(size=200, id="name", maxlength="23") }}
+            <br>
+            {{ form.domain.label(class="domain-label") }} {{ form.domain(size=200, id="domain", maxlength="23") }}
+            <input type="submit" name="button" value="Fill" class="button" id="fill">
+          </form>
+        </div>
+      </section>
+    </main>
+{% endblock content%}

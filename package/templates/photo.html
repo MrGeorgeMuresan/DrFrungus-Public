@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/final_degree.css') }}">
+
+    {% if title %}
+      <title>DarkShow{{title}}</title>
+    {% else %}
+      <title>DarkShow</title>
+    {% endif %}
+
+  </head>
+  <body>
+    <main>
+      <section class="degree-content">
+        <div class="degree-speech">
+          <p>Frungus University would like to congratulate {{ name }} for absolving
+            our courses in {{ domain }}. We hope to see you again as a nobel prize winner just
+            not behind bars.
+            <h2>And dont forget MITOCHONDRIA IS THE POWERHOUSE OF THE CELL.</h2>
+            Now here is your degree.
+          </p>
+        </div>  
+        <img src="{{ images }}">
+
+      </section>
+    </main>
+  </body>
+</html>

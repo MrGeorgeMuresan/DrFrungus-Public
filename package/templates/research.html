@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+{% block content %}
+  <main class="research">
+    <section id="display-section">
+      <div class="image-wrapper">
+        <img class="image-edit" src="{{url_for('static', filename='site_photos/dark_labs.png')}}" alt="">
+      </div>
+      <div class="welcome-wrapper">
+        <h1 class="welcome-txt-h1">Welcome,<br><h2 class="welcome-txt-h2"> to Frungus labs</h2></h1>
+      </div>
+      <div class="research-button-wrapper">
+        <button class="research-button-txt" id="research-button" onclick="window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';">Research</button>
+      </div>
+    </section>
+
+<!--
+    <section id="research-section" class="flex-container">
+      <div class="research-box">
+        <iframe src="https://www.youtube.com/watch?v=AyOqGRjVtls">
+
+        </iframe>
+      </div>
+-->
+<!--
+      <div class="research-box">
+        <span onclick="display_ender();" class="close">&times;</span>
+        <div class="card-teemo">
+          <img src="{{ url_for('static', filename='site_photos/teemo_photo.png') }}" alt="">
+          <h1>Teemo</h1>
+          <p class="status">Status: Extinct</p>
+          <p><button>Research</button></p>
+        </div>
+        <div class="card-lee">
+          <img src="{{ url_for('static', filename='site_photos/lee_photo.png') }}" alt="">
+          <h1>Lee Sin</h1>
+          <p class="status">Status: Extinct</p>
+          <p><button>Research</button></p>
+        </div>
+      </div>
+    -->
+    </section>
+
+  
+  </main>
+  
+  <script>
+    var display_sec = document.getElementById('display-section');
+    var research_sec = document.getElementById('research-section');
+    
+    function display_changer(){
+      display_sec.style.display='none';
+      research_sec.style.display='block';
+    }
+    function display_ender(){
+      display_sec.style.display = 'block';
+      research_sec.style.display='none';
+    }
+  </script>
+
+{% endblock content %}

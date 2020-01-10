@@ -1,0 +1,12 @@
+html{
+    min-height: 100%;
+}
+body{
+    font-weight: 800;
+    background-color: #181848;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}

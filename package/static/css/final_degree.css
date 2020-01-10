@@ -1,0 +1,84 @@
+html{
+    min-height: 100%;
+}
+
+body {
+	font-family: 'Aclonica', sans-serif;
+    font-weight: 800;
+}
+
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+.degree-content{
+    background: #181848;   
+    height: 100vh;
+}
+.degree-speech{
+    color: #fff;
+    font-size: 2.6vw;
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 3%;
+    row-gap: 10%;
+}
+h2{
+    font-size: 4vw;
+    margin: 0;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+@media (max-width: 600px){
+    .degree-speech{
+        font-size: 4.6vw;
+    }
+    .degree-speech{
+        padding-top: 10%;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    img{
+        width: 100%;
+        margin-top: 20%;
+
+    }
+}
+@media (min-width: 600px) and (max-width: 767px){
+    .degree-speech{
+        font-size: 4.6vw;
+        padding-top: 10%;
+    }
+    h2{
+        font-size: 8vw;
+    }
+    img{
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 768px){
+    img{
+        margin-top: 10%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .degree-speech{
+        font-size: 4.6vw;
+        padding-top: 10%;
+    }
+    h2{
+        font-size: 6vw;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .degree-speech{
+        font-size: 3.6vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+}
