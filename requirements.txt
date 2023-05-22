@@ -4,5 +4,5 @@ Flask-WTF==0.14.2
 Flask-Bundle==0.4
 Flask-Scss==0.5
 Pillow==7.0.0
-requests==2.22.0
+requests==2.31.0
 gunicorn==20.0.4
